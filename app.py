@@ -9,7 +9,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, sen
 from music_video_generator import generate_music_video, ProgressUpdater
 
 # Hardcoding the Suno API key directly in app.py
-SUNO_API_KEY = "6a3b6f312e0df45ac694e6b9232a3c20"  # Hardcoded API key
+SUNO_API_KEY = os.getenv("SUNO_API_KEY")  # Hardcoded API key
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'  # For flash messages

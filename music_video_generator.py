@@ -35,7 +35,7 @@ class ProgressUpdater:
 load_dotenv()
 
 # API keys - HARDCODED FOR DIRECT USE
-SUNO_API_KEY = "6a3b6f312e0df45ac694e6b9232a3c20"  # Hardcoded API key
+SUNO_API_KEY = os.getenv("SUNO_API_KEY")  # Hardcoded API key
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
