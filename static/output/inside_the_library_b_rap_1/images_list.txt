@@ -1,0 +1,8 @@
+file 'static/output/inside_the_library_b_rap_1/images/image_00.png'
+duration 5
+file 'static/output/inside_the_library_b_rap_1/images/image_01.png'
+duration 5
+file 'static/output/inside_the_library_b_rap_1/images/image_02.png'
+duration 5
+file 'static/output/inside_the_library_b_rap_1/images/image_03.png'
+duration 5

@@ -1,0 +1,7 @@
+requests
+python-dotenv
+anthropic
+openai
+pillow
+moviepy
+flask
